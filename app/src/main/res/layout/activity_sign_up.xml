@@ -83,6 +83,23 @@
                         android:layout_height="wrap_content" />
                 </com.google.android.material.textfield.TextInputLayout>
 
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/edtFullnameLayout"
+                    style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="20dp"
+                    android:hint="@string/hintEdtfullname"
+                    app:helperText="*Require"
+                    app:hintAnimationEnabled="true"
+                    app:startIconDrawable="@drawable/baseline_drive_file_rename_outline_24">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/edtFullname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </com.google.android.material.textfield.TextInputLayout>
+
                 <androidx.appcompat.widget.AppCompatButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -98,20 +115,20 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingHorizontal="10dp"
-                        android:text="Dont Have Account?" />
+                        android:text="Already have an account?"
+                        android:textSize="@dimen/smallText16sp" />
 
                     <TextView
-                        android:id="@+id/createNewAccount"
+                        android:id="@+id/signInHere"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="createa a new account"
+                        android:text="Sign in here"
                         android:textColor="@color/darkSecondaryLightBlue"
-                        android:textStyle="bold"
-                        />
+                        android:textFontWeight="900"
+                        android:textSize="@dimen/smallText16sp" />
 
                 </GridLayout>
             </LinearLayout>
-
         </RelativeLayout>
 
 
