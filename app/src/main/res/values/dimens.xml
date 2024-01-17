@@ -2,4 +2,11 @@
 <resources>
     <dimen name="_20sp">20sp</dimen>
     <dimen name="headerApp_background">80dp</dimen>
+    <dimen name="marginVertikalLogoLogin">50dp</dimen>
+    <dimen name="bigText30dp">30dp</dimen>
+    <dimen name="smallText16sp">16sp</dimen>
+    <dimen name="editText_50dp">50dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
 </resources>

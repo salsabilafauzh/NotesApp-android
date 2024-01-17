@@ -2,7 +2,17 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="blue">#92C7CF</color>
-    <color name="lightBlue">#AAD7D9</color>
-    <color name="darkBeige">#E5E1DA</color>
+    <color name="primary">#92C7CF</color>
+    <color name="secondary">#AAD7D9</color>
+    <color name="accent">#E5E1DA</color>
+
+
+    <color name="darkPrimaryBlue">#598C96</color>
+    <color name="darkSecondaryLightBlue">#7CA3A5</color>
+    <color name="darkAccentBeige">#C7C2BA</color>
+
+    <color name="textPrimary">#000000</color>
+    <color name="textSecondaryDark"> #598C96</color>
+    <color name="textSecondarylight">#92C7CF</color>
+    <color name="textTransparent">#99000000</color>
 </resources>
