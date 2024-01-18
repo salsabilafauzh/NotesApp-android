@@ -1,11 +1,18 @@
-package com.example.notesapp
+package com.example.notesapp.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.notesapp.R
 
-class SignUp : AppCompatActivity() {
+class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_sign_up)
+        setContentView(R.layout.activity_main)
+
+
+
     }
+
+
+
 }
