@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".ui.MainActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -63,7 +63,8 @@
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/edtUsername"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:inputType="text" />
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
@@ -80,7 +81,8 @@
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/edtPassword"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:inputType="textPassword" />
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <androidx.appcompat.widget.AppCompatButton
@@ -106,8 +108,7 @@
                         android:layout_height="wrap_content"
                         android:text="createa a new account"
                         android:textColor="@color/darkSecondaryLightBlue"
-                        android:textStyle="bold"
-                        />
+                        android:textStyle="bold" />
 
                 </GridLayout>
             </LinearLayout>
