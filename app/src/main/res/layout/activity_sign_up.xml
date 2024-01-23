@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.MainActivity">
+    tools:context=".ui.SignUp">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -63,6 +63,7 @@
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/edtUsername"
                         android:layout_width="match_parent"
+                        android:inputType="text"
                         android:layout_height="wrap_content" />
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -80,7 +81,8 @@
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/edtPassword"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:inputType="textPassword" />
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
@@ -101,10 +103,11 @@
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/signUp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/secondary"
-                    android:text="Sign In" />
+                    android:text="Sign Up" />
 
                 <GridLayout
                     android:layout_width="match_parent"
@@ -115,17 +118,16 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingHorizontal="10dp"
-                        android:text="Already have an account?"
-                        android:textSize="@dimen/smallText16sp" />
+                        android:text="Already have an account?" />
 
-                    <TextView
+                    <Button
                         android:id="@+id/signInHere"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:padding="10dp"
                         android:text="Sign in here"
-                        android:textColor="@color/darkSecondaryLightBlue"
-                        android:textFontWeight="900"
-                        android:textSize="@dimen/smallText16sp" />
+                        android:textColor="@color/accent"
+                        android:textStyle="bold" />
 
                 </GridLayout>
             </LinearLayout>
