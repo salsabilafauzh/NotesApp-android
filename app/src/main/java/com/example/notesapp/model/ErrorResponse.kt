@@ -2,8 +2,7 @@ package com.example.notesapp.model
 
 import com.google.gson.annotations.SerializedName
 
-data class ResponseApi<T>(
+data class ErrorResponse(
     @SerializedName("success") val success: Boolean,
-    @SerializedName("message") val message: String,
-    @SerializedName("data") val data: T?,
+    @SerializedName("message") val message: String
 )

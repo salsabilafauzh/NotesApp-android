@@ -12,7 +12,13 @@
     <color name="darkAccentBeige">#C7C2BA</color>
 
     <color name="textPrimary">#000000</color>
-    <color name="textSecondaryDark"> #598C96</color>
+    <color name="textSecondaryDark">#598C96</color>
     <color name="textSecondarylight">#92C7CF</color>
     <color name="textTransparent">#99000000</color>
+
+    <color name="noteColor1">#61A3BA</color>
+    <color name="noteColor2">#FFFFDD</color>
+    <color name="noteColor3">#D2DE32</color>
+    <color name="noteColor4">#A2C579</color>
+
 </resources>
